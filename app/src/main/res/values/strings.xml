@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ParkIT</string>
+    <string name="navigation_draw_open">open ParkIT</string>
+    <string name="navigation_draw_close">close ParkIT</string>
+
+
+</resources>

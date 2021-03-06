@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/search_parking"
+        android:layout_width="157dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="152dp"
+        android:backgroundTint="#3C3838"
+        android:text="Search Parking Spot"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/add_parking_spot"
+        android:layout_width="157dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/search_parking"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="149dp"
+        android:backgroundTint="#3C3838"
+        android:text="Add Parking Spot"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="202dp"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="518dp"
+        android:background="@drawable/circle"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="ParkIT"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+</RelativeLayout>
